@@ -17,8 +17,8 @@ let time = questions.length * 15;
 let timerId;
 
 // reference the sound effects
-let sfxRight = new Audio('assets/sfx/correct.wav');  
-let sfxWrong = new Audio('assets/sfx/incorrect.wav');
+let sfxRight = new Audio('assignment-js-webapis/main/assets/sfx/correct.wav');  
+let sfxWrong = new Audio('assignment-js-webapis/main/assets/sfx/incorrect.wav');
 
 function startQuiz() {
   // hide start screen
